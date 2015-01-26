@@ -9,8 +9,32 @@ h1 {
     text-color: #000000;
     line-heigh: 200%;
     text-align: center;
+    
+}
+
+h2 {
+    background-color: #ccaa66;
+    text-color: #000000;
+    line-heigh: 200%;
+    text-align: center;
+
 }
 
 #nav {
     text-align: center
+}
+
+#footer {
+    background-color: #ccaa66;
+    text color: #000000;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+}
+
+#wrapper {
+    align-content: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
