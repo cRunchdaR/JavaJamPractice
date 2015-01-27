@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffcc;
+    background-image:url(Images/background.gif);
     text color: #330000;
     font-family: sans-serif;
 }
@@ -7,17 +7,32 @@ body {
 h1 {
     background-color: #ccaa66;
     text-color: #000000;
-    line-heigh: 200%;
     text-align: center;
     
 }
 
 h2 {
     background-color: #ccaa66;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-bottom: 5px;
     text-color: #000000;
-    line-heigh: 200%;
+    line-height: 200%;
     text-align: center;
 
+}
+
+img {
+    border: none;
+}
+
+#content {
+    padding: 25px;
+}
+
+#details {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #nav {
@@ -27,14 +42,17 @@ h2 {
 #footer {
     background-color: #ccaa66;
     text color: #000000;
-    font-size: small;
+    font-size: .60em;
     font-style: italic;
     text-align: center;
 }
 
 #wrapper {
+    background-color: #ffffcc;
     align-content: center;
+    min-width: 700px;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    
 }
